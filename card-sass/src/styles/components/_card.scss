@@ -1,0 +1,50 @@
+
+.container {
+    max-width: 30%;
+    border: 2px solid black;
+    margin: 0 auto;
+    min-height: 10%;
+    border-radius: 20px;
+    background: $color1;
+}
+
+.card-container {
+    margin: 10px;
+    border-radius: 20px;
+    background: white;
+
+    img {
+        display: flex;
+        margin: auto;
+    }
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h1 {
+        padding: 5px  0;
+        font-size: 1.6rem;
+        font-family: "font1";
+    }
+
+    p {
+        padding-top: 2px;
+        font-weight: bold;
+    }
+}
+
+p {
+    margin: 10px;
+
+}
+h2 {
+    text-align: center;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
